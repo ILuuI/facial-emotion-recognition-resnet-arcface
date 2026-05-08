@@ -53,15 +53,11 @@ The model is built on a custom **Residual Network (ResNet)** with the following 
 
 The residual connection follows the standard formulation:
 
-```
 $$H(x) = F(x) + x$$
-```
 
 And the ArcFace loss is defined as:
 
-```
 $$\mathcal{L} = -\log \frac{e^{s \cdot \cos(\theta_{y_i} + m)}}{e^{s \cdot \cos(\theta_{y_i} + m)} + \sum_{j=1,\, j \neq y_i}^{N} e^{s \cdot \cos(\theta_j)}}$$
-```
 
 ---
 
