@@ -1,4 +1,4 @@
-#Facial Emotion Recognition using Residual Networks and Angular Margin Based Discriminative Learning
+# Facial Emotion Recognition using Residual Networks and Angular Margin Based Discriminative Learning
 
 <div align="center">
 
