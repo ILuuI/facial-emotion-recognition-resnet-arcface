@@ -219,9 +219,9 @@ We evaluated multiple visual explainability techniques including Grad-CAM, Eigen
 
 | Contributor | Roles |
 |-------------|-------|
-| **Jose C. Arroyo** | Data Curation · Investigation · Methodology · Project Administration · Software · Validation · Writing – Original Draft · Writing – Review & Editing |
-| **Lucas M. Rivadeneira** | Data Curation · Investigation · Methodology · Project Administration · Software · Visualization · Writing – Original Draft · Writing – Review & Editing |
-| **Enoc D. Samur** | Data Curation · Investigation · Methodology · Project Administration · Software · Visualization · Writing – Original Draft · Writing – Review & Editing |
+| **Jose C. Arroyo** | Data Curation · Investigation · Methodology · Project Administration · Software · Visualization · Validation · Writing – Original Draft · Writing – Review & Editing |
+| **Lucas M. Rivadeneira** | Data Curation · Investigation · Methodology · Software · Visualization · Writing – Original Draft · Writing – Review & Editing |
+| **Enoc D. Samur** | Data Curation · Investigation · Methodology · Software · Visualization · Writing – Original Draft · Writing – Review & Editing |
 | **Wilson J. Arrubla** | Supervision |
 
 ---
