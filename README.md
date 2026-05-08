@@ -231,11 +231,11 @@ We evaluated multiple visual explainability techniques including Grad-CAM, Eigen
 If you use this work in your research, please cite:
 
 ```bibtex
-@article{arroyo2024fer,
+@article{,
   title     = {Facial Emotion Recognition using Residual Networks and Angular Margin Based Discriminative Learning},
-  author    = {Arroyo Cantero, Jose Carlos and Rivadeneira Zarza, Lucas Mateo and Samur Martinez, Enoc David and Arrubla Hoyos, Wilson de Jes{\'u}s},
-  journal   = {INGE CUC},
-  year      = {2024},
+  author    = {},
+  journal   = {},
+  year      = {},
   publisher = {Universidad de Sucre},
   url       = {}
 }
