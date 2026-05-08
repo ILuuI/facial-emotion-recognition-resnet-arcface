@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![Google Colab](https://img.shields.io/badge/Run%20in-Colab-F9AB00?style=flat-square&logo=googlecolab)](https://colab.research.google.com/)
 
-**Universidad de Sucre · Sincelejo, Colombia**
+**Universidad de Sucre · Sincelejo-Sucre, Colombia**
 
 [Paper](#-citation) · [Quick Start](#-quick-start) · [Results](#-results) · [Architecture](#-architecture)
 
