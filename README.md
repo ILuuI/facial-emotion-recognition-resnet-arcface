@@ -22,7 +22,7 @@ This repository contains the official implementation of our paper:
 > **Facial Emotion Recognition using Residual Networks and Angular Margin Based Discriminative Learning**
 > Jose Carlos Arroyo Cantero, Lucas Mateo Rivadeneira Zarza, Enoc David Samur Martinez, Wilson de Jesús Arrubla Hoyos
 > *INGE CUC · Universidad de Sucre, Colombia*
-> 📎 [Read the full paper](#) ← *(add URL when published)*
+> [Read the full paper](#) ← *(add URL when published)*
 
 We propose a deep residual architecture combined with **ArcFace Loss** — a metric learning approach based on angular margins — for the automatic classification of **six universal facial emotions**. The model achieves **94.41% accuracy** on a balanced test set of 3,900 images.
 
