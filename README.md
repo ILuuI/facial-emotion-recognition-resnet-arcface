@@ -206,7 +206,7 @@ We evaluated multiple visual explainability techniques including Grad-CAM, Eigen
 
 ---
 
-## 👥 Authors
+## Authors
 
 | Name | Institution | Email | ORCID |
 |------|-------------|-------|-------|
