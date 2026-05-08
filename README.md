@@ -9,7 +9,7 @@
 
 **Universidad de Sucre · Sincelejo-Sucre, Colombia**
 
-[Paper](#-citation) · [Quick Start](#-quick-start) · [Results](#-results) · [Architecture](#-architecture)
+[Paper](#citation) · [Quick Start](#quick-start) · [Results](#results) · [Architecture](#architecture)
 
 </div>
 
@@ -96,29 +96,29 @@ L = -log [ e^(s·cos(θ_yi + m)) / (e^(s·cos(θ_yi + m)) + Σ e^(s·cos(θ_j)))
 ```
 facial-emotion-recognition-resnet-arcface/
 │
-├── 📄 README.md
-├── 📄 LICENSE                    # MIT License
-├── 📄 requirements.txt
+├── README.md
+├── LICENSE                    # MIT License
+├── requirements.txt
 │
-├── 📁 src/
-│   ├── model.py                  # ResNet architecture
-│   ├── train.py                  # Training pipeline
-│   ├── evaluate.py               # Evaluation & metrics
-│   ├── dataset.py                # Dataset loading & preprocessing
-│   └── losses.py                 # ArcFace Loss implementation
+├── src/
+│   ├── model.py               # ResNet architecture
+│   ├── train.py               # Training pipeline
+│   ├── evaluate.py            # Evaluation & metrics
+│   ├── dataset.py             # Dataset loading & preprocessing
+│   └── losses.py              # ArcFace Loss implementation
 │
-├── 📁 notebooks/
-│   ├── training.ipynb            # Full training walkthrough
-│   └── inference_demo.ipynb      # Demo with predictions + VarGrad
+├── notebooks/
+│   ├── training.ipynb         # Full training walkthrough
+│   └── inference_demo.ipynb   # Demo with predictions + VarGrad
 │
-├── 📁 configs/
-│   └── config.yaml               # Hyperparameters
+├── configs/
+│   └── config.yaml            # Hyperparameters
 │
-├── 📁 results/
-│   └── figures/                  # Confusion matrix, t-SNE, VarGrad maps
+├── results/
+│   └── figures/               # Confusion matrix, t-SNE, VarGrad maps
 │
-└── 📁 docs/
-    └── architecture.md           # Detailed architecture description
+└── docs/
+    └── architecture.md        # Detailed architecture description
 ```
 
 ---
@@ -158,7 +158,7 @@ Open the training notebook directly:
 
 ---
 
-## ⚙️ Training Configuration
+## Training Configuration
 
 | Hyperparameter | Value |
 |----------------|-------|
@@ -231,11 +231,11 @@ We evaluated multiple visual explainability techniques including Grad-CAM, Eigen
 If you use this work in your research, please cite:
 
 ```bibtex
-@article{,
+@article{arroyo2026fer,
   title     = {Facial Emotion Recognition using Residual Networks and Angular Margin Based Discriminative Learning},
-  author    = {},
-  journal   = {},
-  year      = {},
+  author    = {Arroyo Cantero, Jose Carlos and Rivadeneira Zarza, Lucas Mateo and Samur Martinez, Enoc David and Arrubla Hoyos, Wilson de Jes{\'u}s},
+  journal   = {INGE CUC},
+  year      = {2026},
   publisher = {Universidad de Sucre},
   url       = {}
 }
@@ -262,5 +262,5 @@ Key references from the paper:
 ---
 
 <div align="center">
-Made with at <strong>Universidad de Sucre</strong> · Sincelejo, Colombia
+Made with ❤️ by <strong>PEPA PIC Research Group</strong> · Universidad de Sucre · Sincelejo, Colombia
 </div>
