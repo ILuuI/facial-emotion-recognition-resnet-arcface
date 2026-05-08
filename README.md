@@ -65,7 +65,7 @@ L = -log [ e^(s·cos(θ_yi + m)) / (e^(s·cos(θ_yi + m)) + Σ e^(s·cos(θ_j)))
 
 ---
 
-## 📊 Results
+## Results
 
 ### Overall Performance
 
