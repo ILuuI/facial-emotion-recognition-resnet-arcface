@@ -9,13 +9,13 @@
 
 **Universidad de Sucre · Sincelejo, Colombia**
 
-[📄 Paper](#-citation) · [🚀 Quick Start](#-quick-start) · [📊 Results](#-results) · [🧠 Architecture](#-architecture)
+[Paper](#-citation) · [Quick Start](#-quick-start) · [Results](#-results) · [Architecture](#-architecture)
 
 </div>
 
 ---
 
-## 📌 Overview
+## Overview
 
 This repository contains the official implementation of our paper:
 
@@ -28,20 +28,20 @@ We propose a deep residual architecture combined with **ArcFace Loss** — a met
 
 ---
 
-## 🎯 Emotions Classified
+## Emotions Classified
 
-| Label | Emotion |
+| Class | Emotion |
 |-------|---------|
-| 😠 | Angry |
-| 🤢 | Disgust |
-| 😨 | Fear |
-| 😊 | Happy |
-| 😢 | Sad |
-| 😲 | Surprise |
+| 0 | Angry |
+| 1 | Disgust |
+| 2 | Fear |
+| 3 | Happy |
+| 4 | Sad |
+| 5 | Surprise |
 
 ---
 
-## 🧠 Architecture
+## Architecture
 
 The model is built on a custom **Residual Network (ResNet)** with the following design choices:
 
@@ -91,7 +91,7 @@ L = -log [ e^(s·cos(θ_yi + m)) / (e^(s·cos(θ_yi + m)) + Σ e^(s·cos(θ_j)))
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 facial-emotion-recognition-resnet-arcface/
@@ -123,7 +123,7 @@ facial-emotion-recognition-resnet-arcface/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the repository
 
@@ -177,7 +177,7 @@ Open the training notebook directly:
 
 ---
 
-## 🗃️ Dataset
+## Dataset
 
 The training dataset consists of **39,000 facial images** organized into **6 balanced emotional classes**. It was compiled from:
 
@@ -198,7 +198,7 @@ The training dataset consists of **39,000 facial images** organized into **6 bal
 
 ---
 
-## 🔍 Interpretability
+## Interpretability
 
 We evaluated multiple visual explainability techniques including Grad-CAM, EigenCAM, SmoothGrad, Integrated Gradients, Blur Occlusion, and VarGrad.
 
@@ -206,7 +206,7 @@ We evaluated multiple visual explainability techniques including Grad-CAM, Eigen
 
 ---
 
-## 👥 Authors
+## Authors
 
 | Name | Institution | Email |
 |------|------------|-------|
@@ -217,7 +217,7 @@ We evaluated multiple visual explainability techniques including Grad-CAM, Eigen
 
 ---
 
-## 📄 Citation
+## Citation
 
 If you use this work in your research, please cite:
 
@@ -234,7 +234,7 @@ If you use this work in your research, please cite:
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
@@ -253,5 +253,5 @@ Key references from the paper:
 ---
 
 <div align="center">
-Made with ❤️ at <strong>Universidad de Sucre</strong> · Sincelejo, Colombia
+Made with at <strong>Universidad de Sucre</strong> · Sincelejo, Colombia
 </div>
