@@ -206,14 +206,23 @@ We evaluated multiple visual explainability techniques including Grad-CAM, Eigen
 
 ---
 
-## Authors
+## 👥 Authors
 
-| Name | Institution | Email |
-|------|------------|-------|
-| Jose Carlos Arroyo Cantero | Universidad de Sucre | jose.arroyo54@unisucrevirtual.edu.co |
-| Lucas Mateo Rivadeneira Zarza | Universidad de Sucre | lucas.rivadeneira@unisucrevirtual.edu.co |
-| Enoc David Samur Martinez | Universidad de Sucre | enoc.samur@unisucrevirtual.edu.co |
-| Wilson de Jesús Arrubla Hoyos | Universidad de Sucre | wilson.arrubla@unisucrevirtual.edu.co |
+| Name | Institution | Email | ORCID |
+|------|-------------|-------|-------|
+| Jose Carlos Arroyo Cantero | Universidad de Sucre | jose.arroyo54@unisucrevirtual.edu.co | [0009-0009-9449-8105](https://orcid.org/0009-0009-9449-8105) |
+| Lucas Mateo Rivadeneira Zarza | Universidad de Sucre | lucas.rivadeneira@unisucrevirtual.edu.co | [0009-0004-7201-2905](https://orcid.org/0009-0004-7201-2905) |
+| Enoc David Samur Martinez | Universidad de Sucre | enoc.samur@unisucrevirtual.edu.co | [0009-0002-7579-4944](https://orcid.org/0009-0002-7579-4944) |
+| Wilson de Jesús Arrubla Hoyos | Universidad de Sucre | wilson.arrubla@unisucrevirtual.edu.co | [0000-0001-7119-7603](https://orcid.org/0000-0001-7119-7603) |
+
+### CRediT — Contributor Roles Taxonomy
+
+| Contributor | Roles |
+|-------------|-------|
+| **Jose C. Arroyo** | Data Curation · Investigation · Methodology · Project Administration · Software · Validation · Writing – Original Draft · Writing – Review & Editing |
+| **Lucas M. Rivadeneira** | Data Curation · Investigation · Methodology · Project Administration · Software · Visualization · Writing – Original Draft · Writing – Review & Editing |
+| **Enoc D. Samur** | Data Curation · Investigation · Methodology · Project Administration · Software · Visualization · Writing – Original Draft · Writing – Review & Editing |
+| **Wilson J. Arrubla** | Supervision |
 
 ---
 
