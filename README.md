@@ -95,26 +95,7 @@ facial-emotion-recognition-resnet-arcface/
 ├── README.md
 ├── LICENSE                    # MIT License
 ├── requirements.txt
-│
-├── src/
-│   ├── model.py               # ResNet architecture
-│   ├── train.py               # Training pipeline
-│   ├── evaluate.py            # Evaluation & metrics
-│   ├── dataset.py             # Dataset loading & preprocessing
-│   └── losses.py              # ArcFace Loss implementation
-│
-├── notebooks/
-│   ├── training.ipynb         # Full training walkthrough
-│   └── inference_demo.ipynb   # Demo with predictions + VarGrad
-│
-├── configs/
-│   └── config.yaml            # Hyperparameters
-│
-├── results/
-│   └── figures/               # Confusion matrix, t-SNE, VarGrad maps
-│
-└── docs/
-    └── architecture.md        # Detailed architecture description
+
 ```
 
 ---
