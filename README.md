@@ -94,8 +94,10 @@ ArcFace loss is defined as:
 
 $$\mathcal{L} = -\log \frac{e^{s \cdot \cos(\theta_{y_i} + m)}}{e^{s \cdot \cos(\theta_{y_i} + m)} + \sum_{j=1,\, j \neq y_i}^{N} e^{s \cdot \cos(\theta_j)}}$$
 
+
 The ArcFace loss implementation was initially based on the open-source
 implementation by **ronghuaiyang**:
+
 
 > Ronghuaiyang. *arcface-pytorch*.  
 > https://github.com/ronghuaiyang/arcface-pytorch
@@ -106,6 +108,7 @@ module (`models/metrics.py`) served as the starting point for this work.
 
 ### Our Modifications
 
+<p align="justify">
 While the original implementation uses fixed values for the angular margin
 (`m`) and feature scale (`s`) throughout training, we redesigned the
 optimization strategy by introducing a **dynamic warm-up schedule** for both
@@ -113,6 +116,7 @@ parameters.
 
 Instead of keeping the ArcFace hyperparameters constant, our implementation
 gradually updates them during the first training epochs:
+</p>
 
 <table align="center">
   <tr>
@@ -132,11 +136,13 @@ gradually updates them during the first training epochs:
   </tr>
 </table>
 
+<p align="justify">
 This modification allows the network to begin training under a softer metric
 learning objective before progressively enforcing stronger angular constraints.
 As the embedding space becomes more structured, the angular margin and feature
 scale increase simultaneously, improving optimization stability and producing
 more discriminative representations.
+</p>
 
 ---
 
