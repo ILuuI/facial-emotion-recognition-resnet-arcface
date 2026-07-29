@@ -110,8 +110,8 @@ module (`models/metrics.py`) served as the starting point for this work.
 
 <p align="justify">
 While the original implementation uses fixed values for the angular margin
-(`m`) and feature scale (`s`) throughout training, we redesigned the
-optimization strategy by introducing a **dynamic warm-up schedule** for both
+(<code>m</code>) and feature scale (<code>s</code>) throughout training, we redesigned the
+optimization strategy by introducing a <strong>dynamic warm-up schedule</strong> for both
 parameters.
 
 Instead of keeping the ArcFace hyperparameters constant, our implementation
