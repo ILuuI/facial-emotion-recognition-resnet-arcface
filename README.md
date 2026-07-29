@@ -84,7 +84,7 @@ The model is built on a custom **Residual Network (ResNet)** with the following 
 - **Loss function**: ArcFace Loss with angular margin `m` for intra-class compactness and inter-class separation
 
 <p align="center">
-  <img src="pictures/architecture.svg" width="800">
+  <img src="pictures/architecture.svg" width="700">
 
 ---
 
