@@ -75,7 +75,7 @@ robust and reliable performance, reaching <b>94.41% accuracy</b> and a
 
 ## Architecture
 
-The model is built on a custom **Residual Network (ResNet)** with the following design choices:
+The model was built on a custom **Residual Network (ResNet)** with the following design choices:
 
 - **Residual blocks** with 3×3 convolutions; channels scale progressively from 32 → 256 → 128
 - **Activation functions**: ReLU and SiLU for modeling nonlinear relationships
