@@ -44,6 +44,7 @@ robust and reliable performance, reaching <b>94.41% accuracy</b> and a
 <p align="center">
   <img src="pictures/inference.png" width="800">
 </p>
+
 ---
 
 ## Emotions Classified
@@ -84,7 +85,7 @@ The model is built on a custom **Residual Network (ResNet)** with the following 
 
 <p align="center">
   <img src="pictures/architecture.svg" width="500">
-</p>
+
 ---
 
 ### ArcFace Implementation
@@ -230,12 +231,14 @@ more discriminative representations.
 
 > The **Happy** class achieved the highest F1-score (0.9809), while **Disgust** and **Sad** presented the greatest classification challenge, likely due to partial overlap in their facial action units.
 
+<p align="justify">To provide a more comprehensive evaluation of the proposed model, we analyze both the confusion matrix and the learned embedding representations. The results demonstrate balanced classification performance across all emotion categories, with only minor confusion between visually similar expressions. Additionally, the t-SNE projection of the final embedding space reveals well-separated class clusters, confirming that the ArcFace Loss learns highly discriminative representations by increasing inter-class separation while preserving intra-class compactness.
+</p>
+
 <p align="center">
   <img src="pictures/metrics_representations.png" width="1000">
 </p>
----
 
-## Repository Structure
+---
 
 ## Repository Structure
 
@@ -256,8 +259,7 @@ facial-emotion-recognition-resnet-arcface/
 
 Open the training notebook directly:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ILuuI/facial-emotion-recognition-resnet-arcface/blob/main/FER_ResNet_ArcFace.ipynb)
 ---
 
 ## Training Configuration
@@ -336,7 +338,7 @@ Open the training notebook directly:
 
 | Contributor | Roles |
 |-------------|-------|
-| **Jose C. Arroyo** | Data Curation · Investigation · Methodology · Project Administration · Software · Visualization · Validation · Writing – Original Draft · Writing – Review & Editing |
+| **Jose C. Arroyo** | Project Administration · Data Curation · Investigation · Methodology ·  Software · Visualization · Validation · Writing – Original Draft · Writing – Review & Editing |
 | **Lucas M. Rivadeneira** | Data Curation · Investigation · Methodology · Software · Visualization · Writing – Original Draft · Writing – Review & Editing |
 | **Enoc D. Samur** | Data Curation · Investigation · Methodology · Software · Visualization · Writing – Original Draft · Writing – Review & Editing |
 | **Wilson J. Arrubla** | Supervision |
