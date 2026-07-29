@@ -237,7 +237,7 @@ more discriminative representations.
 
 > The **Happy** class achieved the highest F1-score (0.9809), while **Disgust** and **Sad** presented the greatest classification challenge, likely due to partial overlap in their facial action units.
 
-<p align="justify">To provide a more comprehensive evaluation of the proposed model, we analyze both the confusion matrix and the learned embedding representations. The results demonstrate balanced classification performance across all emotion categories, with only minor confusion between visually similar expressions. Additionally, the t-SNE projection of the final embedding space reveals well-separated class clusters, confirming that the ArcFace Loss learns highly discriminative representations by increasing inter-class separation while preserving intra-class compactness.
+<p align="justify">To provide a more comprehensive evaluation of the proposed model, we analyze both the confusion matrix and the embedding representations. The results demonstrate balanced classification performance across all emotion categories, with only minor confusion between visually similar expressions. Additionally, the t-SNE projection of the final embedding space reveals well-separated class clusters, confirming that the ArcFace Loss learns highly discriminative representations by increasing inter-class separation while preserving intra-class compactness.
 </p>
 
 <p align="center">
