@@ -24,7 +24,8 @@ This repository contains the official implementation of our paper:
 > *INGE CUC · Universidad de Sucre, Colombia*
 > [Read the full paper](#) ← *(add URL when published)*
 
-We propose a deep residual architecture combined with **ArcFace Loss** a metric learning approach based on angular margins for the automatic classification of **six universal facial emotions**. The model was trained on a curated dataset of **39,000 facial images** compiled from 33 heterogeneous sources, including standardized public benchmarks, real-world photographs, AI-generated images, and manually labeled subsets balanced across all emotional classes to ensure unbiased learning. It achieves **94.41% accuracy** on a held-out test set of 3,900 images, with a macro F1-score of 0.9441 across all six categories.
+Deep learning has significantly advanced facial emotion recognition; however, achieving robust performance across heterogeneous datasets remains a challenging task due to variations in image quality, acquisition conditions, and class distributions. This paper presents a deep residual architecture for facial emotion recognition trained with **ArcFace Loss**, a metric learning approach based on angular margins that enhances feature discrimination among emotion categories. The proposed model is trained on a curated dataset of **39,000 facial images** collected from **33 heterogeneous sources**, including standardized public benchmarks, real-world photographs, AI-generated images, and manually labeled subsets balanced across all six universal emotions. Extensive experiments show that the proposed model achieves robust and reliable performance, reaching **94.41% accuracy** and a **macro F1-score of 0.9441** on a held-out test set of **3,900 images**.
+
 
 ---
 
