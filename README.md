@@ -17,7 +17,7 @@
 
 ## Overview
 
-This repository contains the official implementation of our paper:
+Official Pytorch Implementation of the paper, "Facial Emotion Recognition using Residual Networks and Angular Margin Based Discriminative Learning"（https://arxiv.org/pdf/xxxx)
 
 > **Facial Emotion Recognition using Residual Networks and Angular Margin Based Discriminative Learning**
 > Jose Carlos Arroyo Cantero, Lucas Mateo Rivadeneira Zarza, Enoc David Samur Martinez, Wilson de Jesús Arrubla Hoyos
