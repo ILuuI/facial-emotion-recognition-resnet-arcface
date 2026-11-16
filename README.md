@@ -1,5 +1,18 @@
 # Facial Emotion Recognition using Residual Networks and Angular Margin Based Discriminative Learning
 
+<div align="center">
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?style=flat-square&logo=pytorch)](https://pytorch.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ILuuI/facial-emotion-recognition-resnet-arcface/blob/main/FER_ResNet_ArcFace.ipynb)
+
+*Universidad de Sucre · Sincelejo-Sucre, Colombia*
+
+</div>
+
+---
+
 Research code accompanying a manuscript under revision by Jose Carlos Arroyo Cantero, Lucas Mateo Rivadeneira Zarza, Enoc David Samur Martínez, and Wilson de Jesús Arrubla Hoyos. The study examines residual networks for classifying facial images into six expression categories: **angry, disgust, fear, happy, sad, and surprise**.
 
 **[Reproducibility materials, supplementary tables, and selected checkpoints on Zenodo](https://doi.org/10.5281/zenodo.24238802)** · [Original notebook in this repository](FER_ResNet_ArcFace.ipynb)
